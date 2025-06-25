@@ -13,18 +13,18 @@ const RecruiterAIInterview = () => {
   const interviews = [
     {
       id: 1,
-      candidate: 'Ahmad Khan',
+      candidate: 'Ahmad Mujtaba',
       jobTitle: 'Senior Software Engineer',
-      date: '2023-08-15',
+      date: '2025-06-15',
       status: 'Scheduled',
       duration: '45 mins',
       score: null
     },
     {
       id: 2,
-      candidate: 'Mujtaba Ali',
-      jobTitle: 'Product Manager',
-      date: '2023-08-16',
+      candidate: 'Mujtaba Ahmad',
+      jobTitle: 'Project Manager',
+      date: '2025-06-16',
       status: 'Completed',
       duration: '52 mins',
       score: '87%'
@@ -33,7 +33,7 @@ const RecruiterAIInterview = () => {
       id: 3,
       candidate: 'Kazim Raza',
       jobTitle: 'Data Analyst',
-      date: '2023-08-17',
+      date: '2025-06-17',
       status: 'Scheduled',
       duration: '30 mins',
       score: null
@@ -42,7 +42,7 @@ const RecruiterAIInterview = () => {
       id: 4,
       candidate: 'Sarah Ahmed',
       jobTitle: 'UX Designer',
-      date: '2023-08-14',
+      date: '2025-06-14',
       status: 'Completed',
       duration: '48 mins',
       score: '92%'

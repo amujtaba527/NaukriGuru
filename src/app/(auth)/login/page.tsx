@@ -30,7 +30,9 @@ const LoginForm = () => {
       router.push('/recruiter');
     } else if (formData.username === 'admin' && formData.password === 'admin') {
       router.push('/admin');
-    } else {
+    } else if (formData.username === 'jobseeker' && formData.password === 'jobseeker') {
+      router.push('/jobseeker');
+    }else {
       setError('Invalid credentials. Please try again.');
     }
   };

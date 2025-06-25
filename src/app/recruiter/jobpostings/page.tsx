@@ -57,7 +57,7 @@ const EnhancedJobPostForm = () => {
               {/* Basic Information */}
               <div className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <Briefcase className="w-4 h-4" />
                     Job Title*
                   </label>
@@ -73,7 +73,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <User className="w-4 h-4" />
                     Company Name*
                   </label>
@@ -89,7 +89,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <MapPin className="w-4 h-4" />
                     Location Type*
                   </label>
@@ -108,7 +108,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <Clock className="w-4 h-4" />
                     Job Type*
                   </label>
@@ -150,7 +150,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
                     Application Deadline
                   </label>
@@ -164,7 +164,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <Mail className="w-4 h-4" />
                     Contact Email*
                   </label>
@@ -180,7 +180,7 @@ const EnhancedJobPostForm = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
+                  <label className=" text-sm font-medium text-[#007F5F] mb-2 flex items-center gap-2">
                     <DollarSign className="w-4 h-4" />
                     Salary Range (optional)
                   </label>

@@ -14,9 +14,9 @@ const AdminDashboard = () => {
   ];
 
   const recentActivities = [
-    { user: "Alex Chen", action: "New user registered", time: "2 mins ago" },
+    { user: "Ahmad", action: "New user registered", time: "2 mins ago" },
     { user: "Software Engineer", action: "Job post submitted", time: "15 mins ago" },
-    { user: "Sarah Lee", action: "Resume uploaded", time: "32 mins ago" }
+    { user: "Kazim", action: "Resume uploaded", time: "32 mins ago" }
   ];
 
   const systemAlerts = [
