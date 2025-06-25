@@ -200,13 +200,13 @@ export default function NaukriGuruLanding() {
                     <h3 className="text-xl font-bold text-[#007F5F]">AI Mock Interview</h3>
                     <div className="space-y-3">
                       <div className="bg-[#F5F5DC] p-3 rounded-lg">
-                        <p className="text-sm">"Tell me about your experience with React"</p>
+                        <p className="text-sm">&quot;Tell me about your experience with React&quot;</p>
                       </div>
                       <div className="bg-[#007F5F] text-white p-3 rounded-lg ml-8">
-                        <p className="text-sm">"I've been working with React for 3 years..."</p>
+                        <p className="text-sm">&quot;I&apos;ve been working with React for 3 years...&quot;</p>
                       </div>
                       <div className="bg-[#F5F5DC] p-3 rounded-lg">
-                        <p className="text-sm">"Great! Can you explain state management?"</p>
+                        <p className="text-sm">&quot;Great! Can you explain state management?&quot;</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-[#FFB300]">
@@ -240,7 +240,7 @@ export default function NaukriGuruLanding() {
                       </div>
                     </div>
                     <div className="text-sm text-[#007F5F] bg-[#F5F5DC] p-3 rounded-lg">
-                      💡 Add "TypeScript" and "Node.js" to improve your score
+                      💡 Add &quot; TypeScript&quot; and &quot;Node.js&quot; to improve your score
                     </div>
                   </div>
                 )}
@@ -251,14 +251,14 @@ export default function NaukriGuruLanding() {
                     <div className="space-y-3">
                       <div className="p-3 bg-[#F5F5DC] rounded-lg">
                         <div className="flex justify-between items-center mb-2">
-                          <span className="font-medium">Frontend Developer</span>
+                          <span className="font-medium">&quot;Frontend Developer&quot;</span>
                           <span className="text-[#FFB300] font-bold">96% Match</span>
                         </div>
                         <p className="text-sm text-gray-600">TechCorp • Remote • $80k-$100k</p>
                       </div>
                       <div className="p-3 bg-[#F5F5DC] rounded-lg">
                         <div className="flex justify-between items-center mb-2">
-                          <span className="font-medium">React Developer</span>
+                          <span className="font-medium">&quot;React Developer&quot;</span>
                           <span className="text-[#FFB300] font-bold">94% Match</span>
                         </div>
                         <p className="text-sm text-gray-600">StartupXYZ • Hybrid • $75k-$95k</p>
@@ -280,7 +280,7 @@ export default function NaukriGuruLanding() {
                             AM
                           </div>
                           <div>
-                            <p className="font-medium">Ayesha Malik</p>
+                            <p className="font-medium">&quot;Ayesha Malik&quot;</p>
                             <p className="text-xs text-gray-500">Frontend Developer</p>
                           </div>
                         </div>
@@ -295,7 +295,7 @@ export default function NaukriGuruLanding() {
                             TR
                           </div>
                           <div>
-                            <p className="font-medium">Talha Raza</p>
+                            <p className="font-medium">&quot;Talha Raza&quot;</p>
                             <p className="text-xs text-gray-500">Full Stack Dev</p>
                           </div>
                         </div>
@@ -618,7 +618,7 @@ export default function NaukriGuruLanding() {
         <div className="max-w-7xl mx-auto px-6 lg:px-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-[#007F5F] font-['Poppins'] mb-4">What Our Users Say</h2>
-            <p className="text-xl text-gray-700">Join thousands who've transformed their hiring process</p>
+            <p className="text-xl text-gray-700">Join thousands who&apos;ve transformed their hiring process</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -630,8 +630,8 @@ export default function NaukriGuruLanding() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 italic">
-                "Naukri Guru's AI interview prep helped me land my dream job at Google. The feedback was incredibly
-                detailed and actionable."
+                &quot;Naukri Guru&apos;s AI interview prep helped me land my dream job at Google. The feedback was incredibly
+                detailed and actionable.&quot;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-[#007F5F] rounded-full flex items-center justify-center text-white font-bold">
@@ -652,8 +652,8 @@ export default function NaukriGuruLanding() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 italic">
-                "As an HR manager, this platform has reduced our hiring time by 70%. The AI scoring is remarkably
-                accurate."
+                &quot;As an HR manager, this platform has reduced our hiring time by 70%. The AI scoring is remarkably
+                accurate.&quot;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-[#007F5F] rounded-full flex items-center justify-center text-white font-bold">
@@ -674,7 +674,7 @@ export default function NaukriGuruLanding() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 italic">
-                "The resume optimization feature increased my interview calls by 300%. Absolutely game-changing!"
+                &quot;The resume optimization feature increased my interview calls by 300%. Absolutely game-changing!&quot;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-[#007F5F] rounded-full flex items-center justify-center text-white font-bold">

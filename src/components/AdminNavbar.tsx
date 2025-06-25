@@ -29,10 +29,12 @@ const RecruiterNavbar = () => {
             User Management
           </Link>
         </div>
-        {/* Welcome Text */}
-        <div className="flex items-center">
-          <span className="text-[#007F5F] ">Welcome, </span>
-        </div>
+        {/* Logout Button */}
+        <Link href="/login">
+          <button className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+            Logout
+          </button>
+          </Link>
       </div>
     </div>
   </nav>

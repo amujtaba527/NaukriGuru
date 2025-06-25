@@ -180,7 +180,7 @@ const RecruiterAIInterview = () => {
                           <MessageSquare className="w-4 h-4 text-[#FFB300]" />
                         </div>
                         <div className="bg-[#F5F5DC] p-3 rounded-lg flex-1">
-                          <p className="text-sm text-[#007F5F]">"Can you explain your experience with React?"</p>
+                          <p className="text-sm text-[#007F5F]">&quot;Can you explain your experience with React?&quot;</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
@@ -188,7 +188,7 @@ const RecruiterAIInterview = () => {
                           <User className="w-4 h-4 text-[#007F5F]" />
                         </div>
                         <div className="bg-white p-3 rounded-lg flex-1 border border-[#007F5F]/10">
-                          <p className="text-sm text-[#007F5F]">"I've worked with React for 3 years on several projects..." [AI analyzing response]</p>
+                          <p className="text-sm text-[#007F5F]">&quot;I&apos;ve worked with React for 3 years on several projects...&quot; [AI analyzing response]</p>
                         </div>
                       </div>
                     </div>
@@ -221,13 +221,13 @@ const RecruiterAIInterview = () => {
                   <div className="bg-[#FFB300]/10 p-1 rounded-full">
                     <CheckCircle className="w-4 h-4 text-[#FFB300]" />
                   </div>
-                  <p className="text-sm text-[#007F5F]">"Excellent technical depth from Ahmad Khan"</p>
+                  <p className="text-sm text-[#007F5F]">&quot;Excellent technical depth from Ahmad Khan&quot;</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="bg-[#FFB300]/10 p-1 rounded-full">
                     <CheckCircle className="w-4 h-4 text-[#FFB300]" />
                   </div>
-                  <p className="text-sm text-[#007F5F]">"Sarah Ahmed showed strong problem-solving skills"</p>
+                  <p className="text-sm text-[#007F5F]">&quot;Sarah Ahmed showed strong problem-solving skills&quot;</p>
                 </div>
               </div>
             </div>

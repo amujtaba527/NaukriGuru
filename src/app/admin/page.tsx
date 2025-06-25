@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import AdminNavbar from '@/components/AdminNavbar';
-import { Briefcase, Brain, Users, FileText, BarChart2, Shield, Settings, Mail, ArrowRight, Search } from 'lucide-react';
+import { Briefcase, Users, FileText, BarChart2, Shield, Settings, Mail, Search } from 'lucide-react';
 import Link from 'next/link';
 
 const AdminDashboard = () => {

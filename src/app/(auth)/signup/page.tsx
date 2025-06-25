@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Briefcase, Brain, ArrowRight, Mail, Lock, User, X, ChevronDown } from 'lucide-react';
+import { Briefcase, Brain, ArrowRight, Mail, Lock, User, ChevronDown } from 'lucide-react';
 
 const SignupForm = () => {
   const [formData, setFormData] = useState({
@@ -30,13 +30,13 @@ const SignupForm = () => {
       <div className="max-w-md mx-auto w-full">
         {/* Logo */}
         <div className="flex justify-center mb-10">
-          <a href="/" className="flex items-center gap-3 cursor-pointer">
+          <Link href="/" className="flex items-center gap-3 cursor-pointer">
             <div className="relative">
               <Briefcase className="w-8 h-8 text-[#007F5F]" />
               <Brain className="w-4 h-4 text-[#FFB300] absolute -top-1 -right-1" />
             </div>
             <span className="text-2xl font-black text-[#007F5F] font-['Poppins']">Naukri Guru</span>
-          </a>
+          </Link>
         </div>
 
         {/* Signup Card */}

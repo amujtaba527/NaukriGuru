@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Briefcase, Brain, ArrowRight, Mail, Lock, User, X, ChevronDown } from 'lucide-react';
+import { Briefcase, Brain, ArrowRight         , Lock, User, X, ChevronDown } from 'lucide-react';
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
@@ -40,13 +40,13 @@ const LoginForm = () => {
       <div className="max-w-md mx-auto w-full">
         {/* Logo */}
         <div className="flex justify-center mb-10">
-          <a href="/" className="flex items-center gap-3 cursor-pointer">
+          <Link href="/" className="flex items-center gap-3 cursor-pointer">
             <div className="relative">
               <Briefcase className="w-8 h-8 text-[#007F5F]" />
               <Brain className="w-4 h-4 text-[#FFB300] absolute -top-1 -right-1" />
             </div>
             <span className="text-2xl font-black text-[#007F5F] font-['Poppins']">Naukri Guru</span>
-          </a>
+          </Link>
         </div>
 
         {/* Login Card */}
@@ -143,7 +143,7 @@ const LoginForm = () => {
 
           <div className="px-8 py-6 bg-[#FCFCF2] border-t border-[#007F5F]/10 text-center">
             <p className="text-[#007F5F]">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link href="/signup" className="font-bold text-[#FFB300] hover:text-[#e6a000]">
                 Sign up
               </Link>

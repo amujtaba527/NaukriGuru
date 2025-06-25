@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Briefcase, Brain } from 'lucide-react';
 
-const RecruiterNavbar = () => {
+const JobseekerNavbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-[#F5F5DC]/80 backdrop-blur-md border-b border-black/10 shadow-sm font-['Inter']">
     <div className="max-w-7xl mx-auto px-6 lg:px-24">
@@ -19,28 +19,23 @@ const RecruiterNavbar = () => {
         </div>
         {/* Desktop Menu */}
         <div className="hidden sm:flex items-center gap-8">
-          <Link href="/recruiter" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+          <Link href="/jobseeker" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
             Dashboard
           </Link>
-          <Link href="/recruiter/jobpostings" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
-            Job Postings
-          </Link>
-          <Link href="/recruiter/aiinterview" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+          <Link href="/jobseeker/interview" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
             AI Interviews
           </Link>
         </div>
         {/* Logout Button */}
-        <div className="flex items-center">
-          <Link href="/login">
+        <Link href="/login">
           <button className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
             Logout
           </button>
           </Link>
-        </div>
       </div>
     </div>
   </nav>
   );
 };
 
-export default RecruiterNavbar;
+export default JobseekerNavbar;

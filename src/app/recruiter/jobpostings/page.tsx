@@ -1,7 +1,7 @@
 "use client"
 import RecruiterNavbar from '@/components/RecruiterNavbar';
 import React, { useState } from 'react';
-import { Briefcase, Brain, X, ArrowRight, Calendar, DollarSign, Mail, MapPin, Clock, User } from 'lucide-react';
+import { Briefcase, X, ArrowRight, Calendar, DollarSign, Mail, MapPin, Clock, User } from 'lucide-react';
 import Link from 'next/link';
 
 const EnhancedJobPostForm = () => {
