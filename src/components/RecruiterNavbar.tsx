@@ -2,36 +2,40 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { Briefcase, Brain } from 'lucide-react';
 
 const RecruiterNavbar = () => {
   return (
-    <div className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex">
-            <div className="flex-shrink-0 flex items-center">
-              <span className="text-blue-600 font-bold text-xl">Naukri Guru</span>
+    <nav className="sticky top-0 z-50 bg-[#F5F5DC]/80 backdrop-blur-md border-b border-black/10 shadow-sm font-['Inter']">
+    <div className="max-w-7xl mx-auto px-6 lg:px-24">
+      <div className="flex items-center justify-between h-20">
+        {/* Logo */}
+        <div className="flex items-center justify-center h-20">
+        <div className="relative">
+              <Briefcase className="w-8 h-8 text-[#007F5F]" />
+              <Brain className="w-4 h-4 text-[#FFB300] absolute -top-1 -right-1" />
             </div>
-            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-              <Link href="/recruiter" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Dashboard
-              </Link>
-              <Link href="/recruiter/jobpostings" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Job Postings
-              </Link>
-              <Link href="/recruiter/aiinterview" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                AI Interviews
-              </Link>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <span className="text-gray-700 text-sm">Welcome, </span>
-            </div>
-          </div>
+          <span className="text-2xl font-black text-[#007F5F] font-['Poppins']">Naukri Guru</span>
+        </div>
+        {/* Desktop Menu */}
+        <div className="hidden sm:flex items-center gap-8">
+          <Link href="/recruiter" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+            Dashboard
+          </Link>
+          <Link href="/recruiter/jobpostings" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+            Job Postings
+          </Link>
+          <Link href="/recruiter/aiinterview" className="text-[#007F5F] hover:text-[#FFB300] transition-colors font-semibold">
+            AI Interviews
+          </Link>
+        </div>
+        {/* Welcome Text */}
+        <div className="flex items-center">
+          <span className="text-[#007F5F]">Welcome, </span>
         </div>
       </div>
     </div>
+  </nav>
   );
 };
 
